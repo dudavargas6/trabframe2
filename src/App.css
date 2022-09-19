@@ -1,0 +1,78 @@
+.container{
+
+  font-family: "Times New Roman", Times, serif;
+
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+.cabecalho img{
+  height: 200px;
+}
+
+.cabecalho p{
+  font-size: 50px;
+  font-style: italic;
+}
+
+.busca{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.busca input{
+  height: 25px;
+  text-align: center;
+}
+
+.postagens{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  text-align: justify;
+}
+
+.lista{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rodape{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  background-color: aliceblue;
+
+}
+
+.rodape img{
+  position: absolute;
+  left: 10px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.rodapenomes{
+  position: absolute;
+  right: 10px;
+}
+
+.trabframe{
+  font-size: 30px;
+  text-align: justify;
+}
+
